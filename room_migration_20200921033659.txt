@@ -1,0 +1,128 @@
+Room Migration Report
+=====================
+
+Date: 2020-09-21 03:36:59
+
+Location
+--------
+Module: app
+Source folder: app/src/main/java
+
+Gradle Build File
+-----------------
+Path: app/build.gradle
+Added libraries:
+  * androidx.room:room-runtime:2.2.5
+  * androidx.room:room-compiler:2.2.5
+  * androidx.room:room-testing:2.2.5
+
+Generated Entities
+------------------
+Package: com.product.idescout.room.entity
+  * Employee.kt
+  * Formaccess.kt
+  * Formlist.kt
+  * RoomMasterTable.kt
+  * Synchurl.kt
+  * TAdjType.kt
+  * TApi.kt
+  * TCfmA7masterstockstatus.kt
+  * TCfmA7stockstatus.kt
+  * TCountry.kt
+  * TCountryall.kt
+  * TDailystock.kt
+  * TDistrict.kt
+  * TFacility.kt
+  * TFacilityDetail.kt
+  * TFacilityGroupMap.kt
+  * TFacilityLevel.kt
+  * TFacilityProduct.kt
+  * TFacilityProductLot.kt
+  * TFacilityType.kt
+  * TFacilitylog.kt
+  * TGeneric.kt
+  * TInitialSetup.kt
+  * TIssuedto.kt
+  * TItemgroup.kt
+  * TItemlist.kt
+  * TItemlistMaster.kt
+  * TMonth.kt
+  * TMostypeFacility.kt
+  * TOrderbook.kt
+  * TOrderbookitem.kt
+  * TOwnerType.kt
+  * TProductgroupMapping.kt
+  * TRegion.kt
+  * TServiceArea.kt
+  * TStocktakeitem.kt
+  * TStocktakemaster.kt
+  * TStore.kt
+  * TStoreProduct.kt
+  * TSupplier.kt
+  * TTransaction.kt
+  * TTransactionItem.kt
+  * TTransactionType.kt
+  * TTranslation.kt
+  * TUiLanguage.kt
+  * TUiLanguageMenu.kt
+  * TYear.kt
+  * TZone.kt
+
+Generated DAOs
+--------------
+Package: com.product.idescout.room.dao
+  * EmployeeDao.kt
+  * FormaccessDao.kt
+  * FormlistDao.kt
+  * RoomMasterTableDao.kt
+  * SynchurlDao.kt
+  * TAdjTypeDao.kt
+  * TApiDao.kt
+  * TCfmA7masterstockstatusDao.kt
+  * TCfmA7stockstatusDao.kt
+  * TCountryDao.kt
+  * TCountryallDao.kt
+  * TDailystockDao.kt
+  * TDistrictDao.kt
+  * TFacilityDao.kt
+  * TFacilityDetailDao.kt
+  * TFacilityGroupMapDao.kt
+  * TFacilityLevelDao.kt
+  * TFacilityProductDao.kt
+  * TFacilityProductLotDao.kt
+  * TFacilityTypeDao.kt
+  * TFacilitylogDao.kt
+  * TGenericDao.kt
+  * TInitialSetupDao.kt
+  * TIssuedtoDao.kt
+  * TItemgroupDao.kt
+  * TItemlistDao.kt
+  * TItemlistMasterDao.kt
+  * TMonthDao.kt
+  * TMostypeFacilityDao.kt
+  * TOrderbookDao.kt
+  * TOrderbookitemDao.kt
+  * TOwnerTypeDao.kt
+  * TProductgroupMappingDao.kt
+  * TRegionDao.kt
+  * TServiceAreaDao.kt
+  * TStocktakeitemDao.kt
+  * TStocktakemasterDao.kt
+  * TStoreDao.kt
+  * TStoreProductDao.kt
+  * TSupplierDao.kt
+  * TTransactionDao.kt
+  * TTransactionItemDao.kt
+  * TTransactionTypeDao.kt
+  * TTranslationDao.kt
+  * TUiLanguageDao.kt
+  * TUiLanguageMenuDao.kt
+  * TYearDao.kt
+  * TZoneDao.kt
+
+Generated Migration and Database
+--------------------------------
+Package: com.product.idescout.room
+  * Migration1To2.kt
+  * AppDatabase.kt
+
